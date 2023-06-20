@@ -4,4 +4,4 @@ Projeto desenvolvido como treinamento das funções de um CRUD daseado em JavaSc
 
 &nbsp;
 
-<img src="https://github.com/AgeuNunes/projeto02_listaPresenca/blob/main/layout/layout.png">
+<img style="width: 600px" src="https://github.com/AgeuNunes/projeto02_listaPresenca/blob/main/layout/layout.png">
