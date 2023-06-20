@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+
+    <meta name="author" content="Ageu Nunes">
+    <link rel="icon" href="icon/list.png">
+    <title>Lista de Presença</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="content">
+
+        <ul id="titulo">
+            <span>Lista de Presença</span>
+        </ul>
+        
+        <div class="topo">
+
+            <input type="text" id="inputNewAluno" placeholder="Digite o nome do aluno">
+            
+            <button id="btnAddAluno" title="Adicionar">
+                <i class="fa fa-plus"></i>
+            </button>
+
+        </div>
+        
+        <hr>
+        
+        <ul id="listPresence">
+        </ul>
+
+    </div>
+
+    <div id="editWindow">
+
+        <button id="btnCloseEditWindow" title="Fechar">
+            <i class="fa fa-remove fa-2x"></i>
+        </button>
+
+        <h2 id="idEditAluno">Editar</h2>
+
+        <hr>
+
+        <form>
+
+            <div class="frm-line">
+
+                <label for="name">Nome</label>
+
+                <input type="text" id="inputNameEdit">
+
+            </div>
+
+            <div class="frm-line">
+
+                <button id="btnUpate" attr-id="">Atualizar</button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+    <div id="editWindowBackground"></div>
+    
+    <script src="js/alunos.js"></script>
+
+</body>
+
+</html>
