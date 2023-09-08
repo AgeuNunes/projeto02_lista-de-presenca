@@ -1,4 +1,4 @@
-﻿# projeto02_listaPresenca
+﻿# Lista de Presenca
 
 Este foi meu segundo projeto e foi desenvolvido como treinamento pessoal das funções de um CRUD daseado em JavaScript e sem uso do banco de dados.
 
