@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 
+:root {
+    --color-background: #000;
+    --color-primary: #ffc000;
+    --color-text: #fff;
+    --color-content: #2b2a2a;
+    --color-input: #191818;
+    --color-hover: #1f1e1e;
+    --color-hover2: #3c3a3a;
+}
+
 body {
-    background: #000;
-    color: #fff;
+    background: var(--color-background);
+    color: var(--color-text);
     margin: 0;
     font-family: Inter;
     font-weight: 400;
@@ -10,7 +20,7 @@ body {
 }
 
 .content {
-    background: #2b2a2a;
+    background: var(--color-content);
     padding: 50px;
     border-radius: 12px;
     width: 100%;
@@ -21,8 +31,8 @@ body {
 }
 
 #titulo {
-    background: #ffc000;
-    color: #2b2a2a;
+    background: var(--color-primary);
+    color: var(--color-content);
     padding: 10px;
     margin-block-start: 0px;
     border-radius: 12px;
@@ -37,8 +47,8 @@ body {
 }
 
 .topo input {
-    background: #191818;
-    color: #fff;
+    background: var(--color-input);
+    color: var(--color-text);
     border: none;
     border-radius: 12px;
     width: 350px;
@@ -48,8 +58,8 @@ body {
 }
 
 .topo button {
-    background: #191818;
-    color: #fff;
+    background: var(--color-input);
+    color: var(--color-text);
     border: none;
     border-radius: 12px;
     width: 50px;
@@ -57,14 +67,14 @@ body {
 }
 
 hr {
-    background-image: linear-gradient(to right, transparent, #ffc000, transparent);
+    background-image: linear-gradient(to right, transparent, var(--color-primary), transparent);
     height: 1px;
     margin-bottom: 20px;
     border: none;
 }
 
 .topo button:hover {
-    background: #1f1e1e;
+    background: var(--color-hover);
     cursor: pointer;
 }
 
@@ -75,7 +85,7 @@ hr {
 }
 
 #listPresence li {
-    background: #191818;
+    background: var(--color-input);
     border-radius: 12px;
     padding: 15px;
     display: flex;
@@ -92,8 +102,8 @@ hr {
 }
 
 .btnAction {
-    background: #2b2a2a;
-    color: #fff;
+    background: var(--color-content);
+    color: var(--color-text);
     border: none;
     border-radius: 50%;
     width: 30px;
@@ -103,13 +113,13 @@ hr {
 }
 
 .btnAction:hover {
-    background: #3c3a3a;
+    background: var(--color-hover2);
     cursor: pointer;
 }
 
 #editWindow {
-    background: #191818;
-    border: 1px solid #2d2c2c;
+    background: var(--color-input);
+    border: 1px solid var(--color-content);
     border-radius: 12px;
     width: 415px;
     padding: 20px;
@@ -126,7 +136,7 @@ hr {
 }
 
 #editWindowBackground {
-    background-color: #000;
+    background-color: var(--color-background);
     position: fixed;
     top: 0;
     left: 0;
@@ -142,8 +152,8 @@ hr {
 }
 
 #btnCloseEditWindow {
-    background: #2d2c2c;
-    color: #ccc;
+    background: var(--color-content);
+    color: var(--color-text);
     border: none;
     border-radius: 50%;
     width: 50px;
@@ -156,7 +166,7 @@ hr {
 }
 
 #btnCloseEditWindow:hover {
-    background: #3c3a3a;
+    background: var(--color-hover2);
 }
 
 form {
@@ -165,7 +175,7 @@ form {
 }
 
 #idEditAluno {
-    color: #ffc000;
+    color: var(--color-primary);
 }
 
 .frm-line {
@@ -179,8 +189,8 @@ form {
 }
 
 .frm-line input {
-    background: #2d2c2c;
-    color: #fff;
+    background: var(--color-content);
+    color: var(--color-text);
     border: none;
     padding: 15px;
     border-radius: 12px;
@@ -189,8 +199,8 @@ form {
 }
 
 #btnUpate {
-    background: #2d2c2c;
-    color: #ccc;
+    background: var(--color-content);
+    color: var(--color-text);
     border: none;
     border-radius: 15px;
     height: 40px;
@@ -201,5 +211,5 @@ form {
 }
 
 #btnUpate:hover {
-    background: #3c3a3a;
+    background: var(--color-hover2);
 }
