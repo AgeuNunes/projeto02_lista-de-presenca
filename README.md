@@ -1,5 +1,5 @@
 ﻿# Lista de Presenca
 
-Este foi meu segundo projeto e foi desenvolvido como treinamento pessoal das funções de um CRUD daseado em JavaScript e sem uso do banco de dados.
+Projeto desenvolvido como treinamento pessoal de CRUD usando JavaScript sem back-end.
 
 Acesse clicando <a href="https://ageununes.github.io/projeto02_lista-de-presenca/" >aqui</a>
